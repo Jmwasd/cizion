@@ -1,7 +1,7 @@
 const config = {
    development: {
       username: 'root',
-      password: 'wkdalsdn1!A',
+      password: process.DB_SECRET,
       database: 'cizion',
       host: '127.0.0.1',
       dialect: 'mariadb',
